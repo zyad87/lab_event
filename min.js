@@ -37,10 +37,10 @@ let flagImageChanger = true;
 changeBackgroundImage.addEventListener('click', () => {
   if (flagImageChanger) {
     textContent.style.backgroundImage = `url(
-        'https://images.pexels.com/photos/22207914/pexels-photo-22207914/free-photo-of-a-black-and-white-photo-of-a-staircase.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSntv5FbVb8Z38bFtsL9og7IPcvf9u5VplxIQ&s'
       )`;
   } else {
-    textContent.style.backgroundImage = `url(https://images.pexels.com/photos/22806869/pexels-photo-22806869/free-photo-of-a-street-light-with-a-pole-and-a-pole.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load)`;
+    textContent.style.backgroundImage = `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRIStnAbvKDKBSEVmxnhxJssyxSRMu83shhw&s)`;
   }
   flagImageChanger = !flagImageChanger;
 });
